@@ -2,6 +2,9 @@
 
 #include <SDL.h>
 
+namespace asci_sdl
+{
+
 asci::InputEvent sdlToInput(const SDL_Event* event)
 {
   switch (event->type) {
@@ -82,3 +85,5 @@ asci::KeyboardButton keyboardFromSdl(const int key)
       return asci::KeyboardButton::Unset;
   }
 }
+
+} // namespace asci_sdl
