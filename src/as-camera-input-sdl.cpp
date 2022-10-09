@@ -1,4 +1,4 @@
-#include "as-camera-input-sdl/as-camera-input-sdl.h"
+#include "as-camera-input-sdl/as-camera-input-sdl.hpp"
 
 #include <SDL.h>
 
