@@ -8,7 +8,7 @@ include(FetchContent)
 FetchContent_Declare(
   as-camera-input
   GIT_REPOSITORY https://github.com/pr0g/as-camera-input.git
-  GIT_TAG 02dc361d58de391e1e88dec7f4c820c0d07cc655)
+  GIT_TAG 5490cf0ccf7fe60545c4e36cb182a1e074314ed2)
 FetchContent_Declare(
   cmake-helpers
   GIT_REPOSITORY https://github.com/pr0g/cmake-helpers.git
